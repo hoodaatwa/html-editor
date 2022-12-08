@@ -18,7 +18,4 @@ $(document).ready(()=>{
     $('.copy').click(function(){
         navigator.clipboard.writeText($('#ri2').val());
     })
-    setTimeout(() => { 
-        $('.ads').css({'display':""});
-    }, 2000);
 });
