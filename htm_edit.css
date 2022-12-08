@@ -109,6 +109,7 @@ textarea#ri2 {
     }
     textarea#ri2 {
         border: 0;
+        border-radius: 5px;
     }
     .thatdisappear {
         display: none;
