@@ -42,22 +42,19 @@ textarea#ri2 {
 .callrun {
     font-family: 'Source Sans Pro', sans-serif;
     margin-top: 0px;
-    border-radius: 50%;
-    word-spacing: 10px;
     border: 1px solid #b5b5b5;
     white-space: nowrap;
-    width: 35px;
-    height: 35px;
     transition-property: all;
     transition-duration: 0.5s;
     overflow: hidden;
     background-color: #fff;
     bottom: 11px;
     font-size: 23px;
-    line-height: 3px;
     text-align: center;
     color: rgb(0 0 0 / 29%);
     font-weight: bolder;
+    height: 33px;
+    line-height: 10px;
 }
 .callrun:hover {
     background-color: #56656d !important;
@@ -106,6 +103,27 @@ textarea#ri2 {
         overflow-y: auto;
         scroll-behavior: smooth;
         padding: 0px 10px;
+    }
+    button.copy {
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-top: 0px;
+        border-radius: 50%;
+        word-spacing: 10px;
+        border: 1px solid #b5b5b5;
+        white-space: nowrap;
+        width: 35px;
+        height: 35px;
+        transition-property: all;
+        transition-duration: 0.5s;
+        overflow: hidden;
+        background-color: #fff;
+        bottom: 11px;
+        font-size: 23px;
+        line-height: 3px;
+        text-align: center;
+        color: rgb(0 0 0 / 29%);
+        font-weight: bolder;
+        cursor: pointer;
     }
     textarea#ri2 {
         border: 0;
