@@ -33,7 +33,7 @@ textarea#ri2 {
     width: 100%;
 }
 .btns {
-    display: none;
+    display: block;
 }
 .thatdisappear {
     display: block;
