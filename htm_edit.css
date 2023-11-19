@@ -39,6 +39,9 @@ textarea#ri2 {
     display: block;
     position: relative;
 }
+button.callrun.run {
+    display: none;
+}
 .callrun {
     font-family: 'Source Sans Pro', sans-serif;
     margin-top: 0px;
@@ -108,6 +111,9 @@ textarea#ri2 {
         padding: 0px 10px;
         box-shadow: 0 1px 1px rgb(0 0 0 / 11%), 0 2px 2px rgb(0 0 0 / 11%), 0 4px 4px rgb(0 0 0 / 11%), 0 6px 8px rgb(0 0 0 / 11%), 0 8px 16px rgb(0 0 0 / 11%);
     }
+    button.callrun.run {
+    display: block;
+}
     button.copy {
         font-family: 'Source Sans Pro', sans-serif;
         margin-top: 0px;
