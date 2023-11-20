@@ -7,10 +7,10 @@
     height: 100% !important;
 }
 .con{
-    display: grid !important;
-    align-content: stretch !important;
-    justify-content: space-evenly !important;
-    grid-template-columns: 1fr 1fr !important;
+    display: grid;
+    align-content: stretch;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
 }
 .ru {
     margin: 0;
