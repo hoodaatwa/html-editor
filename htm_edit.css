@@ -90,16 +90,16 @@ button.callrun.run {
         background-color: white;
         overflow: auto;
     }
-    .ads {
+    .ads2023 {
         background-color: transparent;
         margin: 0;
         padding: 8px;
     }
     .btns2023 {
-        padding: 5px;
+        padding: 5px !important;
         background-image: linear-gradient(277deg, #607d8b, #bababade);
-        margin: 0 10px 8px;
-        height: 50px;
+        margin: 0 10px 8px !important;
+        height: 50px !important;
         display: none;
         border-radius: 23px;
         display: grid;
@@ -108,7 +108,7 @@ button.callrun.run {
         justify-items: center;
         overflow-y: auto;
         scroll-behavior: smooth;
-        padding: 0px 10px;
+        padding: 0px 10px !important;
         box-shadow: 0 1px 1px rgb(0 0 0 / 11%), 0 2px 2px rgb(0 0 0 / 11%), 0 4px 4px rgb(0 0 0 / 11%), 0 6px 8px rgb(0 0 0 / 11%), 0 8px 16px rgb(0 0 0 / 11%);
     }
     button.callrun.run {
@@ -158,10 +158,10 @@ button.callrun.run {
         top: 23px;
     }
     .headru span:first-child{
-        transform: rotate(45deg);
+        transform: rotate(45deg) !important;
     }
     .headru span:last-child{
-        transform: rotate(135deg);
+        transform: rotate(135deg) !important;
     }
     .closebtn {
         background-color: #fff;
