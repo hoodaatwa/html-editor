@@ -3,8 +3,7 @@
         $('.run').click(() => {
             try {
                 var x = $('#ri2').val();
-                var result = eval(x);
-                $('#ri2').val(result);
+                $('#ri2').val(x);
             } catch (error) {
                 $('#ri2').val('Error: ' + error.message);
             }
