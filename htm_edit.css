@@ -32,7 +32,7 @@ textarea#ri2 {
     border: 1px solid black;
     width: 100%;
 }
-.btns {
+.btns2023 {
     display: block;
 }
 .thatdisappear {
@@ -72,7 +72,7 @@ button.callrun.run {
     border: 0;
 }
 @media only screen and (max-width: 600px) {
-    body {
+    #bodd {
         background: linear-gradient(to right bottom, #ededed 50%, #cbcbcbd4 50%);
         margin: 0 0;
     }
