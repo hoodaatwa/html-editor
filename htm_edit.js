@@ -2,7 +2,7 @@
     $(document).ready(() => {
         $('#ri2').on('input', function () {
             var x = $('#ri2').val();
-            $('.ru').text(x);
+            $('.ru').html(x);
         });
 
         $('.run').click(() => {
