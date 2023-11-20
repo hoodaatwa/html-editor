@@ -1,5 +1,5 @@
 $(document).ready(()=>{
-    $('#ri2').keyup(function(){
+    $('#ri2').change(function(){
         var x=$('#ri2').val();
         $('.ru').html(x);
     })
