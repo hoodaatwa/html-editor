@@ -73,8 +73,8 @@ button.callrun.run {
 }
 @media only screen and (max-width: 600px) {
     #bodd {
-        background: linear-gradient(to right bottom, #ededed 50%, #cbcbcbd4 50%);
-        margin: 0 0;
+        background: linear-gradient(to right bottom, #ededed 50%, #cbcbcbd4 50%) !important;
+        margin: 0 0 !important;
     }
     .con {
         grid-template-columns: 1fr;
