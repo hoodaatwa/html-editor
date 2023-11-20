@@ -92,8 +92,8 @@ button.callrun.run {
     }
     .ads2023 {
         background-color: transparent;
-        margin: 0;
-        padding: 8px;
+        margin: 0 !important;
+        padding: 8px !important;
     }
     .btns2023 {
         padding: 5px !important;
@@ -101,7 +101,7 @@ button.callrun.run {
         margin: 0 10px 8px !important;
         height: 50px !important;
         display: none;
-        border-radius: 23px;
+        border-radius: 23px !important;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
