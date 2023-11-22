@@ -39,9 +39,6 @@ textarea#ri2 {
     display: block;
     position: relative;
 }
-button.callrun.run {
-    display: none;
-}
 .callrun {
     font-family: 'Source Sans Pro', sans-serif;
     margin-top: 0px;
