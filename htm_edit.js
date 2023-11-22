@@ -1,8 +1,8 @@
-
-    $('#ri2').function(){
+$(document).ready(()=>{
+    $('#ri2').change(function(){
         var x=$('#ri2').val();
         $('.ru').html(x);
-    }
+    })
     $('.run').click(()=>{
         $('.thatdisappear').css({"display":"block","height":"100%","position":"fixed","top":"0","width":"100%","left":"0","background-color":"#f7f7f7"});
         $('.closebtn').fadeIn();
@@ -18,4 +18,4 @@
     $('.copy').click(function(){
         navigator.clipboard.writeText($('#ri2').val());
     })
-;
+});
